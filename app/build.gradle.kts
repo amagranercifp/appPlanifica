@@ -38,16 +38,19 @@ dependencies {
 
     // Import the Firebase BoM
     implementation(platform("com.google.firebase:firebase-bom:32.7.0"))
-    // TODO: Add the dependencies for Firebase products you want to use
-    // When using the BoM, don't specify versions in Firebase dependencies
     implementation("com.google.firebase:firebase-analytics")
+    //Servicio firestore
     implementation("com.google.firebase:firebase-firestore:24.10.0")
+    //Servicio de autenticación
     implementation("com.google.firebase:firebase-auth:22.3.0")
 
     implementation("androidx.appcompat:appcompat:1.6.1")
     implementation("com.google.android.material:material:1.10.0")
     implementation("androidx.constraintlayout:constraintlayout:2.1.4")
 
+
+    //Navigation drawer
+    implementation("com.google.android.material:material:1.3.0-alpha03")
 
     testImplementation("junit:junit:4.13.2")
     androidTestImplementation("androidx.test.ext:junit:1.1.5")
