@@ -7,9 +7,7 @@ public class Estudiante {
     private String nombre;
     private String email;
     private String password;
-
     private String grupo;
-
     private ArrayList<String> modulos;
 
     public Estudiante(String nombre, String email, String password, String grupo) {

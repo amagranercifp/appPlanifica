@@ -95,7 +95,7 @@ public class IniciarSesion extends AppCompatActivity {
                                     progressbar.setVisibility(View.GONE);
 
                                     // si el login es correcto
-                                    // saltamos al Activity Principal
+                                    // saltamos al Activity de bienvenida
                                     Intent intent
                                             = new Intent(IniciarSesion.this,
                                             BienvenidaUsuario.class);

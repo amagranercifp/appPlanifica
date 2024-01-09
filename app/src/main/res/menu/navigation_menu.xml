@@ -8,11 +8,11 @@
         android:title="Mi cuenta" />
 
     <item
-        android:id="@+id/nav_account"
+        android:id="@+id/plan_practica"
         android:title="Planificar práctica" />
 
     <item
-        android:id="@+id/nav_account"
+        android:id="@+id/plan_exam"
         android:title="Planificar examen" />
 
     <item
